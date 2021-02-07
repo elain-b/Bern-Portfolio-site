@@ -68,7 +68,7 @@ header a::after {
     transform-origin: left top;
     transition: transform .3s;
   }
-  
+
 header a:hover::after {
     transform: scale(1, 1);
 }
@@ -143,7 +143,7 @@ a:link, a:visited, a:hover, a:active {
     display: block;
     font-size: 70px;
     letter-spacing: 1.3rem;
-    font-family: 'Unna', serif;
+    font-family: "PT Mono", serif; /* Unna */
 }
 
 .topmain2 {
@@ -177,7 +177,7 @@ h2 {
     font-weight: normal;
     letter-spacing: .4rem;
     line-height: 1;
-    font-family: 'Unna', serif;
+    font-family: 'PT Mono', serif;
     margin-bottom: 50px;
     padding-top: 100px;
 }
@@ -212,6 +212,17 @@ h2 {
     vertical-align: bottom;
     max-width: 100%;
     height: auto;
+}
+
+.sec3 video {
+    vertical-align: bottom;
+    max-width: 100%;
+    height: auto;
+}
+
+.sec3 .gif {
+    width: auto;
+    height: 20%;
 }
 
 .sec3-box {
@@ -289,4 +300,25 @@ footer {
 /* thaks page  */
 .thanks .contact {
     height: 500px;
+}
+
+/* about page */
+.sec1-about {
+    margin-top: 220px;
+}
+
+.sec1-about .wrap {
+    width: 80%;
+    margin-right: auto;
+    margin-left : auto;
+}
+
+.sec1-box-about {
+    justify-content: center;
+}
+
+@media (min-width: 992px) {
+    .sec1-about .sec1-block {
+        width:100%;
+    }
 }
