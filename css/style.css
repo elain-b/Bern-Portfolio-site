@@ -184,6 +184,7 @@ h2 {
 
 .top-text {
     margin-bottom: 40px;
+    word-wrap: break-word;
 }
 
 /* sec3 */
@@ -320,5 +321,31 @@ footer {
 @media (min-width: 992px) {
     .sec1-about .sec1-block {
         width:100%;
+        text-align: center;
     }
+}
+
+.sec1-box-about2 {
+    display: flex;
+    justify-content: center;
+}
+
+.sec1-box-about2-wrap {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #ecfaf1;
+    padding: 3rem;
+}
+
+td {
+    padding: .5rem 2rem;
 }
